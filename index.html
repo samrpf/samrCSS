@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>samrCSS test showcase</title>
+    <link rel="stylesheet" href="samr.css">
+</head>
+<body class="font-helvetica">
+    <p class="title">Hello, World!</p>
+    <div class="notice">
+        <p1 class="notice-text font-mono">This is a test of the samrCSS framework.</p1>
+    </div>
+    <h3 class="head">Absolute Colours</h3>
+    <ul>
+        <li class="c-abs-red">Absolute Red</li>
+        <li class="c-abs-green">Absolute Green</li>
+        <li class="c-abs-blue">Absolute Blue</li>
+        <li class="c-abs-black">Absolute Black</li>
+        <li class="c-abs-white b-black">Absolute White with Black Background</li>
+    </ul>
+    <h3 class="head">Not So Absolute Colours</h3>
+    <ul>
+        <li class="c-black">Black</li>
+        <li class="c-red">Red</li>
+        <li class="c-scarlet">Scarlet</li>
+        <li class="c-orange">Orange</li>
+        <li class="c-fire">Fire</li>
+        <li class="c-yellow">Yellow</li>
+        <li class="c-green">Green</li>
+        <li class="c-seafoam">Seafoam</li>
+        <li class="c-blue">Blue</li>
+        <li class="c-navy">Navy</li>
+        <li class="c-purple">Purple</li>
+        <li class="c-pink">Pink</li>
+        <li class="c-pumpkin">Pumpkin</li>
+    </ul>
+    <hr>
+    <h3 class="head">Typefaces</h3>
+    <ul>
+        <li class="font-helvetica">Helvetica</li>
+        <li class="font-arial">Arial</li>
+        <li class="font-georgia">Georgia</li>
+        <li class="font-mono">Default Monospace Font</li>
+    </ul>
+    <hr>
+    <button onclick="alert('Hello, World!');" class="button">Hello, World!</button>
+    <button class="disabled button">Disabled Button</button>
+    <hr>
+    <input type="text" class="input" >
+    <hr>
+    <select class="select">
+        <option class="option">Option 1</option>
+        <option class="option">Option 2</option>
+        <option class="option">Option 3</option>
+        <option class="option">Option 4</option>
+    </select>
+    <hr>
+    <h3 class="head">Links</h3>
+    <p style="color: slategrey;">Unvisited</p>
+    <p style="color: slategrey; font-weight: bold;">Visited</p>
+    <p style="color: slategrey; text-decoration: underline;">Hover</p>
+    <p style="color: slategrey;">Active</p>
+    <hr>
+    <h3 class="head">Working Example with Buttons</h3>
+    <img src="bulboff.gif" alt="Lightbulb" id="bulb">
+    <br>
+    <button onclick="document.getElementById('bulb').src='bulbon.gif'" class="button">Turn on the lightbulb</button>
+    <button onclick="document.getElementById('bulb').src='bulboff.gif'" class="button">Turn off the lightbulb</button>
+</body>
+</html>

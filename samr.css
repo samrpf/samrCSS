@@ -1,0 +1,212 @@
+/* samrCSS
+   samrcode on github
+*/
+/* Typefaces */
+.font-helvetica {
+    font-family: Helvetica, sans-serif;
+}
+.font-arial {
+    font-family: Arial, sans-serif;
+}
+.font-georgia {
+    font-family: Georgia, serif;
+}
+.font-mono {
+    font-family: monospace;
+}
+/* Text Styles */
+.title {
+    text-align: center;
+    font-size: 36.5px;
+    border-style: dotted;
+}
+.head {
+    font-style: italic;
+}
+
+/* Colours */
+/** Absolute */
+.c-abs-black {
+    color: #000000;
+}
+.c-abs-red {
+    color: #ff0000;
+}
+.c-abs-green {
+    color: #00ff00;
+}
+.c-abs-blue {
+    color: #0000ff;
+}
+.c-abs-white {
+    color: #ffffff;
+}
+/** Not Absolute */
+.c-black {
+    color: #3d3d3d;
+}
+
+.c-red {
+    color: #ff005d;
+}
+
+.c-scarlet {
+    color: #FF2400;
+}
+
+.c-orange {
+    color: #ffa200;
+}
+
+.c-fire {
+    color: #ffc338;
+}
+
+.c-yellow {
+    color: #fff200;   
+}
+
+.c-green {
+    color: #03fc4e;
+}
+
+.c-seafoam {
+    color: #0dffaa;
+}
+
+.c-blue {
+    color: #03dffc;
+}
+
+.c-navy {
+    color: #000080;
+}
+
+.c-purple {
+    color: #8d42f5;
+}
+
+.c-pink {
+    color: #f542ef;
+}
+.c-pumpkin {
+    color: #eb9c3d;
+}
+/** Backgrounds */
+.b-black {
+    background-color: #000000;
+}
+
+/* Custom Bullet Points */
+ul {
+    margin: .5em 0 1.25em;
+    padding: 0 0px;
+    list-style: none;
+}
+
+ul li {
+    background: url("bullet.gif") no-repeat 2px .25em;
+    margin: 0;
+    padding: 0 0 3px 16px;
+    margin-bottom: 3px;
+    line-height: 1.4em;
+}
+
+/* Cleaner horizontal rule */
+hr {
+    height: 2px;
+    width: 50%;
+    border-width: 0;
+    text-align: left;
+    margin-left: 0;
+    color: slategrey;
+    background-color: slategrey;
+}
+
+/* Buttons */
+.button {
+    padding: 10px 40px;
+    border-radius: 8px;
+    transition-duration: 0.5s;
+    border-color: slategrey;
+    background-color: #ffffff;
+    font-weight: 700;
+}
+.button:hover {
+    background-color: slategrey;
+    border-color: #F8F8FF;
+    color: white;
+    font-weight: 700;
+}
+.disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+    font-weight: 700;
+}
+
+/* Select */
+.select {
+    font-weight: 700;
+    border-color: slategrey;
+    border-width: 4px;
+    padding: 10px 40px;
+    background-color: white;
+    border-radius: 8px;
+    transition-duration: 0.5s;
+}
+.select:hover {
+    background-color: slategrey;
+    border-color: #F8F8FF;
+    color: white;
+    font-weight: 700;
+}
+.option {
+    font-weight: 700;
+    border-color: slategrey;
+    border-width: 4px;
+    padding: 10px 40px;
+    background-color: slategrey;
+    border-radius: 8px;
+}
+
+/* Input */
+.input {
+    border-color: slategrey;
+    caret-color: black;
+    padding: 10px 40px;
+    font-weight: 700;
+    margin: 8px 0;
+}
+
+/* Links */
+a {
+    text-decoration: none;
+}
+.link:link { /* Unvisited */
+    color: slategrey;
+}
+.link:visited { /* Visited */
+    color: slategrey;
+    font-weight: bold;
+}
+.link:hover { /* Hover */
+    color: slategrey;
+    text-decoration: underline;
+}
+.link:active { /* after click */
+    color: slategrey;
+}
+
+/* Notice */
+div.notice {
+    border-left-style: solid;
+    border-left-color: slategrey;
+    border-left-width: 8px;
+    background-color: rgba(112, 128, 144, 0.418);
+    height: 25px;
+    width: 50%;
+    border-radius: 8px;
+}
+.notice-text {
+    padding-left: 5px;
+}
