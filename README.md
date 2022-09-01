@@ -11,9 +11,10 @@ Just add a link to samr.css from your web pages.
 ```
 
 You can also download the CSS file and host it yourself.
-However, if you choose this option, remember to also download bullet.gif and put it in the same directory as samr.css.
+<!-- However, if you choose this option, remember to also download bullet.gif and put it in the same directory as samr.css. -->
 
-You do not need to download bulbon.gif and bulboff.gif.
+<!-- You do not need to download bulbon.gif or bulboff.gif. -->
+You do not need to download bulbon.gif, bulboff.gif, or bullet.gif.
 ```html
 <link rel="stylesheet" href="/samr.css">
 ```

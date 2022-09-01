@@ -98,7 +98,7 @@
 }
 
 /* Custom Bullet Points */
-ul {
+/* ul {
     margin: .5em 0 1.25em;
     padding: 0 0px;
     list-style: none;
@@ -110,7 +110,7 @@ ul li {
     padding: 0 0 3px 16px;
     margin-bottom: 3px;
     line-height: 1.4em;
-}
+} */
 
 /* Cleaner horizontal rule */
 hr {
